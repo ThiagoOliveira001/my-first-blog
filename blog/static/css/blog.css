@@ -44,3 +44,11 @@ h1, h2, h3, h4 {
 .post h1 a, .post h1 a:visited {
     color: #000000;
 }
+
+.infodev h1{
+    color: #000000;
+}
+
+.infodev li{
+    color: #0E110F
+}
