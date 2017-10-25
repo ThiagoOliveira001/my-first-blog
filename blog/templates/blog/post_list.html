@@ -17,5 +17,12 @@
         <h1><strong>Blog criado utilizando</strong></h1>
         <ul><li>Python</li><li>Django</li><li>HTML</li></ul>
     </div>
+    {% for post in posts %}
+        <div>
+            <p>Published:{{ post.published_date }}</p>
+            <h1><a href="">{{ post.title }}</a></h1>
+            <p>{{ post.text|linebreaksbr }}</p>
+        </div>
+    {% endfor %}
 </body>
 </html>
