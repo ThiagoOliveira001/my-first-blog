@@ -1,6 +1,14 @@
 {% extends 'blog/base.html' %}
     
 {% block content %}
+    <div class="infodev">
+        <h1>Feito por:<strong>Zagueirão</strong></h1>
+        <h2><strong>Blog criado utilizando</strong></h2>
+        <ul><img src="../../static/public/python.jpg" width="50" height="30"/>Python</ul>
+        <ul><img src="../../static/public/django.png" width="50" height="30"/>Django</ul>
+        <ul><img src="../../static/public/html-5.png" width="50" height="30"/>HTML</ul>
+        <ul><img src="../../static/public/css3.png" width="50" height="30"/>CSS</ul>
+    </div>
     {% for post in posts %}
         <div class="post">
             <div class="date">

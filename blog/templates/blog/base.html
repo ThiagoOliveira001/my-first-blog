@@ -14,17 +14,12 @@
 <body>
     <div class="page-header">
         {% if user.is_authenticated %}
-            <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+            <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus-sign"></span></a>
         {% endif %}
-        <h1><a href="https://djangogirls.org">Django Girls Blog</a></h1>
+        <h1><a href="https://djangogirls.org">Django Blog</a></h1>
         <p>Utilizando tutorial das <strong>Django Girls</strong> para aprender 
         <strong>Django</strong>
         </p>
-    </div>
-    <div class="infodev">
-        <h1>Feito por:<strong>Zagueirão</strong></h1>
-        <h2><strong>Blog criado utilizando</strong></h2>
-        <ul><li>Python</li><li>Django</li><li>HTML</li><li>CSS</li></ul>
     </div>
     <div class="content container">
         <div class="row">
