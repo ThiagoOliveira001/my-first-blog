@@ -21,6 +21,17 @@
         <strong>Django</strong>
         </p>
     </div>
+    <style>
+        @media print{
+            body * {
+                visibility: hidden;
+            }
+
+            .content .container * {
+                visibility: visible;
+            }
+        }
+    </style>
     <div class="content container">
         <a href="#" onclick="window.print(); return false;">Imprimir</a>
         <div class="row">
