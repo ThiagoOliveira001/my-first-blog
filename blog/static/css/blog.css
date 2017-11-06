@@ -52,3 +52,7 @@ h1, h2, h3, h4 {
 .infodev li{
     color: #0E110F;
 }
+
+.glyphicon .glyphicon-print{
+    font-size: 6em;
+}
